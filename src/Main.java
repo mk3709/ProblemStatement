@@ -1,8 +1,9 @@
-public class Main {
+class Solution {
+    public int lengthOfLastWord(String s) {
 
-    public static void main(String[] args) {
+        String str[]= s.split(" ");
+        return str[str.length-1].length();
 
 
-        System.out.println("Hello world!");
     }
 }
